@@ -171,26 +171,6 @@ const AutoCompletion = () => {
     },
   });
 };
-
-const submitCode = () => {
-  console.log("text.value", editProp.text);
-  //   loading.value=true
-  //   api.submitCode(text.value,route.query.identity).then(res=>{
-  //     loading.value=false
-  //       if(res.data.code==200){
-  //         msg.value=res.data.data.msg
-
-  //         if(res.data.data.status==1){
-  //             ElMessage.success(res.data.data.msg)
-  //         }else{
-  //              ElMessage.warning(res.data.data.msg)
-  //         }
-
-  //       }else{
-  //         ElMessage.error(res.data.msg)
-  //       }
-  //   })
-};
 </script>
 
 <style lang="scss"  scoped>
