@@ -28,7 +28,7 @@ const editProp: EditProp = {
   height: 400,
 };
 const fatherProp = defineProps(['heights'])
-fatherProp?fatherProp?.heights:editProp?.height;
+fatherProp?fatherProp.heights:editProp.height;
 /**
  * VS Code 编辑器
  *
